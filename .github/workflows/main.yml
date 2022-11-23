@@ -10,7 +10,7 @@ jobs:
       # Runs the specified commands commands to get Ultraviolet-Node running.
       - name: run ultraviolet
         run: |
-          git clone https://github.com/Gowee/noisy-shuttle--recursive
+          git clone https://github.com/Gowee/noisy-shuttle --recursive
           cd noisy-shuttle
           npm install
           screen -dm npm start
